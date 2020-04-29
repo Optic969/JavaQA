@@ -22,7 +22,7 @@ public class Employee {
 // и производит вызов overload constructor в другом конструкторе
 
     }
-    Employee(String surname3, int age3){
+   public Employee(String surname3, int age3){
         surname=surname3;
         age=age3;
     }
