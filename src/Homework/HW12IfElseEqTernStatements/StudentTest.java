@@ -29,10 +29,6 @@ public class StudentTest {
                 }
     }
 
-
-
-
-
     public static void main(String[] args) {
         Student st1 = new Student("Petr",1,1);
         Student st2 = new Student("Petr",1,1);
