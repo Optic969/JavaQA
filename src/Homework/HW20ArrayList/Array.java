@@ -11,7 +11,7 @@ public class Array {
         list1.add(s4);
         list1.add(s5);
         //Collections.sort(list1);
-        list1= new ArrayList<String>(new LinkedHashSet<String>(list1));
+        list1= new ArrayList<>(new LinkedHashSet<>(list1));
         System.out.println(list1);
     }
 
